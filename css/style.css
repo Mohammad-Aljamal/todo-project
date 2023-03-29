@@ -1,0 +1,43 @@
+header{
+    background-color: powderblue;
+
+
+}
+
+body {
+
+    background-color: bisque;
+}
+
+footer{
+   
+    background-color: powderblue;
+}
+
+
+
+table {
+    margin-left: 30px;
+}
+
+button {
+    margin-left: 10px;
+    border: 10px;
+    padding: 10px;
+    width: 60px;
+    height: 30px;
+
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+/* ---------------------------------- */
+b{
+    background-color: rgb(177, 169, 159);
+    padding: 10px 20px 10px 20px;
+}
+
+
+
