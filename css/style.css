@@ -30,14 +30,23 @@ button {
 }
 
 button:hover{
-    background-color: bisque;
+    background-color: rgb(110, 99, 85);
 }
+
+div.submit {
+    background-color: powderblue;
+    position: absolute;
+    right: 50px;
+}
+
 
 /* ---------------------------------- */
 b{
     background-color: rgb(177, 169, 159);
     padding: 10px 20px 10px 20px;
 }
+
+
 
 
 
