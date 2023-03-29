@@ -26,17 +26,13 @@ button {
     padding: 10px;
     width: 60px;
     height: 30px;
+    background-color: rgb(183, 209, 212);
+
 
 }
 
 button:hover{
     background-color: rgb(110, 99, 85);
-}
-
-div.submit {
-    background-color: powderblue;
-    position: absolute;
-    right: 50px;
 }
 
 
