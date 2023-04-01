@@ -12,38 +12,66 @@
 <body>
 
     <header>
-        <h1 style="text-align:center; background-color:powderblue;"><br>
-            <img src="./List Icon.png" width="35" height="35">    ToDoList
-        <br><br></h1>
+        <h2 style="background-color:powderblue;"><br>
+            <img src="./List Icon.png" width="35" height="35"> 
+             
+                <button type="button"><a href="./index.html" target="_blank">Home</a></button>
+                <button type="button"><a href="./about.html">Info</a></button> 
+                <button type="button">Help</button> 
+            
+        </h2>
+        <!-- <nav>
+
+          <ul>
+            <li><a href="./index.html" target="_blank">Home</a></li>
+
+          </ul>
+
+        </nav> -->
+        <!-- <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <button type="button"><a href="./index.html" target="_blank">Home</a></button>
+             <button type="button"><a href="./about.html">Info</a></button> 
+             <button type="button">Help</button> 
+        </div> -->
+        <br>
     
-        <button type="button"><a href="./index.html" target="_blank">Home</a></button>
-        <button type="button"><a href="./about.html">Info</a></button> 
-        <button type="button">Help</button> 
-        <br>
-        <br>
         
     </header>
-    <br>
-    <br>
+   
     <br>
     <main>
-        <img src="./MyPhoto.png" width="200" height="200" >
+
+        <h1 style="text-align:center;">ToDoList</h1>
+        <br>
+        <br>
+        
+        <div class="imgtext">
+
+            <div class="imag">
+                <img src="./MyPhoto.png" width="200" height="200" >
+            </div>
+        
+            <div class="txt">
+                <b>User Name: Mohammad Aljamal</b>
+                <br>
+                <b>Phone Num: 07xxxxxxxx</b>
+                <br>
+                <b>Description: xxxxxxxxx</b>
+            </div>
+        </div>
         <br>
         <br>
 
-        <b>User Name: Mohammad Aljamal</b><p style="text-align:right;">Name:<input type="text">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-        <b>Phone Num: 07xxxxxxxx</b>
-        <p style="text-align:right;">Email:<input type="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-        <b>Description: xxxxxxxxx</b>
-        <p style="text-align:right;">Message:<input type="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-        
-         <button type="button">Submit</button>
-        
-
+        <div >
+            <p class="inputbox">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"></p>
+            <p class="inputbox">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email"></p>
+            <p class="inputbox">Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number"></p>
+            <p class="inputbox">Message: &nbsp;&nbsp;<input class="massagebox" type="text"></p>
+            <br>
+            <div class="inputbox">
+               <button type="button">Submit</button>
+            </div>
+        </div>
 
 
     </main>

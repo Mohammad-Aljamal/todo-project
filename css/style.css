@@ -28,6 +28,8 @@ button {
     height: 30px;
     background-color: rgb(183, 209, 212);
 
+    /* display:flex;
+    justify-content:center;  */
 
 }
 
@@ -38,13 +40,63 @@ button:hover{
 
 /* ---------------------------------- */
 b{
+    display:flex;
+    justify-content: center;
     background-color: rgb(177, 169, 159);
     padding: 10px 20px 10px 20px;
-
     
 }
 
+.imgtext{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+}
 
+.imag{
+    margin-inline-end: 330px;
+    flex-basis: 5%
+    
+}
 
+.txt{
+    /* display:flex;
+    justify-content: center;
+    align-self: center; */
+}
+
+.inputbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.massagebox{
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+     height: 50px; 
+}
+.tableTodo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table {
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    border: 2px solid; 
+    width: 25%;
+}
+
+th,td{
+    
+    border: 2px solid; 
+
+}
 
 
