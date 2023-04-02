@@ -99,4 +99,10 @@ th,td{
 
 }
 
+.status{
+    background-color: red;
+}
 
+tr:has(> td > input:checked) > .status {
+    background-color: greenyellow;
+}
