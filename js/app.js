@@ -1,4 +1,4 @@
-"use stretch";
+'use strict';
 
 let userName = prompt("Enter the user name:");
 let gender = prompt("Enter the user grnder (male/female):", "male/female");
@@ -24,3 +24,33 @@ if (wlecomeMassege) {
     alert("Welcome ");
   }
 }
+
+// -----------------------------------Lab 06-------------------------todo-js2-----------------
+
+
+function output (input){
+  if (input == "yes"){
+    input = 'yes';
+  }
+  else if (input == 'no'){
+    input = 'no';
+  }
+  else {
+    input = "invalid";
+  }
+
+  return input;
+}
+
+
+let live = prompt("Do you live in Irbid (yes/no)?","yes/no");
+
+let favMeal = prompt("Is the Mansaf your favorite food (yes/no)?","yes/no");
+
+let favDrink = prompt("Is the coffee your favorite drink (yes/no)?","yes/no");
+
+let arr = [output(live),output(favMeal),output(favDrink)];
+
+console.log(arr);
+
+
