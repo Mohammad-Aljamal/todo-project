@@ -51,6 +51,9 @@ let favDrink = prompt("Is the coffee your favorite drink (yes/no)?","yes/no");
 
 let arr = [output(live),output(favMeal),output(favDrink)];
 
-console.log(arr);
+for (let i=0; i<arr.length; i++){
+  console.log(arr[i]);
+
+}
 
 
